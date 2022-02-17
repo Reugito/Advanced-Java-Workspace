@@ -1,0 +1,1711 @@
+2021-12-08 10:57:40,997 [INFO] [restartedMain] [logger{5}:55] Starting TestMangoDbApplication using Java 16.0.1 on DESKTOP-AA5E8UF with PID 10232 (D:\KrypC\November\EmployeeDetails-BackEnd\target\classes started by raosa in D:\KrypC\November\EmployeeDetails-BackEnd)
+2021-12-08 10:57:41,013 [INFO] [restartedMain] [logger{5}:659] No active profile set, falling back to default profiles: default
+2021-12-08 10:57:41,469 [INFO] [restartedMain] [logger{5}:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-08 10:57:41,471 [INFO] [restartedMain] [logger{5}:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-08 10:57:44,030 [INFO] [restartedMain] [logger{5}:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-12-08 10:57:44,206 [INFO] [restartedMain] [logger{5}:201] Finished Spring Data repository scanning in 160 ms. Found 1 MongoDB repository interfaces.
+2021-12-08 10:57:44,907 [INFO] [restartedMain] [logger{5}:376] Bean 'testMangoDbApplication' of type [com.example.api.TestMangoDbApplication$$EnhancerBySpringCGLIB$$d838914] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-08 10:57:45,714 [INFO] [restartedMain] [logger{5}:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-08 10:57:45,745 [INFO] [restartedMain] [logger{5}:173] Starting service [Tomcat]
+2021-12-08 10:57:45,746 [INFO] [restartedMain] [logger{5}:173] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-08 10:57:45,900 [INFO] [restartedMain] [logger{5}:173] Initializing Spring embedded WebApplicationContext
+2021-12-08 10:57:45,901 [INFO] [restartedMain] [logger{5}:290] Root WebApplicationContext: initialization completed in 4427 ms
+2021-12-08 10:57:46,218 [INFO] [restartedMain] [logger{5}:71] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-12-08 10:57:46,441 [INFO] [cluster-rtt-ClusterId{value='61b04252b83c297a9c0a6496', description='null'}-localhost:27017] [logger{5}:71] Opened connection [connectionId{localValue:1, serverValue:2582}] to localhost:27017
+2021-12-08 10:57:46,441 [INFO] [cluster-ClusterId{value='61b04252b83c297a9c0a6496', description='null'}-localhost:27017] [logger{5}:71] Opened connection [connectionId{localValue:2, serverValue:2583}] to localhost:27017
+2021-12-08 10:57:46,443 [INFO] [cluster-ClusterId{value='61b04252b83c297a9c0a6496', description='null'}-localhost:27017] [logger{5}:71] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=131815200}
+2021-12-08 10:57:46,878 [INFO] [restartedMain] [logger{5}:58] LiveReload server is running on port 35729
+2021-12-08 10:57:48,191 [INFO] [restartedMain] [logger{5}:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-08 10:57:48,218 [INFO] [restartedMain] [logger{5}:61] Started TestMangoDbApplication in 8.249 seconds (JVM running for 12.325)
+2021-12-08 10:57:48,226 [INFO] [restartedMain] [logger{5}:18] Application is Running By log
+2021-12-08 10:58:06,526 [INFO] [http-nio-8080-exec-2] [logger{5}:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-08 10:58:06,528 [INFO] [http-nio-8080-exec-2] [logger{5}:525] Initializing Servlet 'dispatcherServlet'
+2021-12-08 10:58:06,531 [INFO] [http-nio-8080-exec-2] [logger{5}:547] Completed initialization in 2 ms
+2021-12-08 10:58:06,637 [INFO] [http-nio-8080-exec-1] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:06,687 [INFO] [http-nio-8080-exec-2] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:06,889 [INFO] [http-nio-8080-exec-1] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 10:58:06,961 [INFO] [http-nio-8080-exec-2] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 10:58:07,095 [INFO] [http-nio-8080-exec-2] [logger{5}:71] Opened connection [connectionId{localValue:4, serverValue:2585}] to localhost:27017
+2021-12-08 10:58:07,095 [INFO] [http-nio-8080-exec-1] [logger{5}:71] Opened connection [connectionId{localValue:3, serverValue:2584}] to localhost:27017
+2021-12-08 10:58:07,631 [INFO] [http-nio-8080-exec-3] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:07,632 [INFO] [http-nio-8080-exec-3] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 10:58:14,058 [INFO] [http-nio-8080-exec-4] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:14,060 [INFO] [http-nio-8080-exec-4] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 10:58:14,061 [INFO] [http-nio-8080-exec-4] [logger{5}:394] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 10:58:21,000 [INFO] [http-nio-8080-exec-6] [logger{5}:190] /update endPoint EmployeeDetailsController.updateEmployeeDetails()
+2021-12-08 10:58:21,018 [INFO] [http-nio-8080-exec-6] [logger{5}:99] /update endpoint EmployeeDetailsService.upDateEmployeeDetails() 
+2021-12-08 10:58:21,258 [INFO] [http-nio-8080-exec-8] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:21,260 [INFO] [http-nio-8080-exec-8] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 10:58:21,266 [INFO] [http-nio-8080-exec-7] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:21,268 [INFO] [http-nio-8080-exec-7] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 10:58:21,357 [INFO] [http-nio-8080-exec-9] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:21,357 [INFO] [http-nio-8080-exec-9] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 10:58:25,127 [INFO] [http-nio-8080-exec-1] [logger{5}:231] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 10:58:25,128 [INFO] [http-nio-8080-exec-1] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 10:58:25,129 [INFO] [http-nio-8080-exec-1] [logger{5}:456] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 10:58:26,131 [INFO] [http-nio-8080-exec-2] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:26,133 [INFO] [http-nio-8080-exec-2] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 10:58:26,208 [INFO] [http-nio-8080-exec-3] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:26,210 [INFO] [http-nio-8080-exec-3] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 10:58:31,292 [INFO] [http-nio-8080-exec-4] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:31,293 [INFO] [http-nio-8080-exec-4] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 10:58:40,041 [INFO] [http-nio-8080-exec-6] [logger{5}:211] /approve status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 10:58:40,042 [INFO] [http-nio-8080-exec-6] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 10:58:40,043 [INFO] [http-nio-8080-exec-6] [logger{5}:272] This call is from /EmployeeDetailsService.approveEmpStatus() 
+2021-12-08 10:58:41,102 [INFO] [http-nio-8080-exec-8] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 10:58:41,103 [INFO] [http-nio-8080-exec-8] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 10:58:41,171 [INFO] [http-nio-8080-exec-7] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 10:58:41,173 [INFO] [http-nio-8080-exec-7] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:00:27,707 [INFO] [http-nio-8080-exec-2] [logger{5}:211] /approve status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 11:00:27,709 [INFO] [http-nio-8080-exec-2] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:00:27,709 [INFO] [http-nio-8080-exec-2] [logger{5}:272] This call is from /EmployeeDetailsService.approveEmpStatus() 
+2021-12-08 11:00:28,737 [INFO] [http-nio-8080-exec-3] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:00:28,739 [INFO] [http-nio-8080-exec-3] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:00:28,785 [INFO] [http-nio-8080-exec-4] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:00:28,787 [INFO] [http-nio-8080-exec-4] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:00:29,589 [INFO] [http-nio-8080-exec-6] [logger{5}:231] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 11:00:29,589 [INFO] [http-nio-8080-exec-6] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:00:29,590 [INFO] [http-nio-8080-exec-6] [logger{5}:456] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 11:00:30,610 [INFO] [http-nio-8080-exec-8] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:00:30,613 [INFO] [http-nio-8080-exec-8] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:00:30,653 [INFO] [http-nio-8080-exec-7] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:00:30,655 [INFO] [http-nio-8080-exec-7] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:20:31,579 [INFO] [http-nio-8080-exec-1] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:20:31,580 [INFO] [http-nio-8080-exec-10] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:20:31,580 [INFO] [http-nio-8080-exec-1] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:20:31,580 [INFO] [http-nio-8080-exec-10] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:20:31,675 [INFO] [http-nio-8080-exec-2] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:20:31,676 [INFO] [http-nio-8080-exec-2] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:21:33,240 [INFO] [http-nio-8080-exec-6] [logger{5}:231] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 11:21:33,241 [INFO] [http-nio-8080-exec-6] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:21:33,242 [INFO] [http-nio-8080-exec-6] [logger{5}:456] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 11:21:34,241 [INFO] [http-nio-8080-exec-8] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:21:34,242 [INFO] [http-nio-8080-exec-8] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:21:34,256 [INFO] [http-nio-8080-exec-7] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:21:34,257 [INFO] [http-nio-8080-exec-7] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:21:43,999 [INFO] [http-nio-8080-exec-9] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:21:44,000 [INFO] [http-nio-8080-exec-9] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:21:44,001 [INFO] [http-nio-8080-exec-9] [logger{5}:394] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 11:21:46,431 [INFO] [http-nio-8080-exec-1] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:21:46,432 [INFO] [http-nio-8080-exec-1] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:21:46,433 [INFO] [http-nio-8080-exec-1] [logger{5}:394] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 11:21:48,652 [INFO] [http-nio-8080-exec-10] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:21:48,654 [INFO] [http-nio-8080-exec-10] [logger{5}:33] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 11:21:48,654 [INFO] [http-nio-8080-exec-10] [logger{5}:394] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 11:21:51,823 [INFO] [http-nio-8080-exec-2] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:21:51,824 [INFO] [http-nio-8080-exec-3] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:21:51,824 [INFO] [http-nio-8080-exec-2] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:21:51,824 [INFO] [http-nio-8080-exec-3] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:21:51,925 [INFO] [http-nio-8080-exec-4] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:21:51,926 [INFO] [http-nio-8080-exec-4] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:22:07,343 [INFO] [http-nio-8080-exec-5] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:22:07,345 [INFO] [http-nio-8080-exec-5] [logger{5}:319] -----> false
+2021-12-08 11:22:07,345 [INFO] [http-nio-8080-exec-5] [logger{5}:323] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 11:22:07,395 [INFO] [http-nio-8080-exec-5] [logger{5}:336] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=902462}]
+2021-12-08 11:22:10,612 [INFO] [http-nio-8080-exec-6] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:22:10,614 [INFO] [http-nio-8080-exec-6] [logger{5}:319] -----> false
+2021-12-08 11:22:10,615 [INFO] [http-nio-8080-exec-6] [logger{5}:323] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 11:22:10,620 [INFO] [http-nio-8080-exec-6] [logger{5}:336] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=902462}]
+2021-12-08 11:38:40,757 [INFO] [http-nio-8080-exec-1] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:38:40,758 [INFO] [http-nio-8080-exec-9] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 11:38:40,758 [INFO] [http-nio-8080-exec-1] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 11:38:40,759 [INFO] [http-nio-8080-exec-9] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 11:38:40,873 [INFO] [http-nio-8080-exec-10] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 11:38:40,873 [INFO] [http-nio-8080-exec-10] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:31:47,895 [INFO] [http-nio-8080-exec-4] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:31:47,896 [INFO] [http-nio-8080-exec-4] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:31:47,900 [INFO] [http-nio-8080-exec-5] [logger{5}:61] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:31:47,901 [INFO] [http-nio-8080-exec-5] [logger{5}:300] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:31:47,952 [INFO] [http-nio-8080-exec-6] [logger{5}:267] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:31:47,953 [INFO] [http-nio-8080-exec-6] [logger{5}:415] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:32:17,145 [INFO] [Thread-4] [logger{5}:71] Closed connection [connectionId{localValue:3, serverValue:2584}] to localhost:27017 because the pool has been closed.
+2021-12-08 13:32:17,146 [INFO] [Thread-4] [logger{5}:71] Closed connection [connectionId{localValue:4, serverValue:2585}] to localhost:27017 because the pool has been closed.
+2021-12-08 13:32:17,250 [INFO] [restartedMain] [logger{5}:55] Starting TestMangoDbApplication using Java 16.0.1 on DESKTOP-AA5E8UF with PID 10232 (D:\KrypC\November\EmployeeDetails-BackEnd\target\classes started by raosa in D:\KrypC\November\EmployeeDetails-BackEnd)
+2021-12-08 13:32:17,250 [INFO] [restartedMain] [logger{5}:659] No active profile set, falling back to default profiles: default
+2021-12-08 13:32:17,913 [INFO] [restartedMain] [logger{5}:132] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-12-08 13:32:17,918 [INFO] [restartedMain] [logger{5}:201] Finished Spring Data repository scanning in 4 ms. Found 1 MongoDB repository interfaces.
+2021-12-08 13:32:17,983 [INFO] [restartedMain] [logger{5}:376] Bean 'testMangoDbApplication' of type [com.example.api.TestMangoDbApplication$$EnhancerBySpringCGLIB$$d838914] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-08 13:32:18,030 [INFO] [restartedMain] [logger{5}:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-08 13:32:18,031 [INFO] [restartedMain] [logger{5}:173] Starting service [Tomcat]
+2021-12-08 13:32:18,031 [INFO] [restartedMain] [logger{5}:173] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-08 13:32:18,076 [INFO] [restartedMain] [logger{5}:173] Initializing Spring embedded WebApplicationContext
+2021-12-08 13:32:18,077 [INFO] [restartedMain] [logger{5}:290] Root WebApplicationContext: initialization completed in 825 ms
+2021-12-08 13:32:18,095 [INFO] [restartedMain] [logger{5}:71] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-12-08 13:32:18,099 [INFO] [cluster-rtt-ClusterId{value='61b0668ab83c297a9c0a6497', description='null'}-localhost:27017] [logger{5}:71] Opened connection [connectionId{localValue:6, serverValue:2587}] to localhost:27017
+2021-12-08 13:32:18,099 [INFO] [cluster-ClusterId{value='61b0668ab83c297a9c0a6497', description='null'}-localhost:27017] [logger{5}:71] Opened connection [connectionId{localValue:5, serverValue:2586}] to localhost:27017
+2021-12-08 13:32:18,099 [INFO] [cluster-ClusterId{value='61b0668ab83c297a9c0a6497', description='null'}-localhost:27017] [logger{5}:71] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1149200}
+2021-12-08 13:32:18,114 [INFO] [restartedMain] [logger{5}:58] LiveReload server is running on port 35729
+2021-12-08 13:32:18,253 [INFO] [restartedMain] [logger{5}:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-08 13:32:18,259 [INFO] [restartedMain] [logger{5}:61] Started TestMangoDbApplication in 1.042 seconds (JVM running for 9282.371)
+2021-12-08 13:32:18,260 [INFO] [restartedMain] [logger{5}:63] Condition evaluation unchanged
+2021-12-08 13:32:18,261 [INFO] [restartedMain] [logger{5}:18] Application is Running By log
+2021-12-08 13:33:10,703 [INFO] Starting TestMangoDbApplication using Java 16.0.1 on DESKTOP-AA5E8UF with PID 10232 (D:\KrypC\November\EmployeeDetails-BackEnd\target\classes started by raosa in D:\KrypC\November\EmployeeDetails-BackEnd)
+2021-12-08 13:33:10,703 [INFO] No active profile set, falling back to default profiles: default
+2021-12-08 13:33:10,821 [INFO] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-12-08 13:33:10,825 [INFO] Finished Spring Data repository scanning in 4 ms. Found 1 MongoDB repository interfaces.
+2021-12-08 13:33:10,896 [INFO] Bean 'testMangoDbApplication' of type [com.example.api.TestMangoDbApplication$$EnhancerBySpringCGLIB$$d838914] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-08 13:33:10,931 [INFO] Tomcat initialized with port(s): 8080 (http)
+2021-12-08 13:33:10,932 [INFO] Starting service [Tomcat]
+2021-12-08 13:33:10,932 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-08 13:33:10,950 [INFO] Initializing Spring embedded WebApplicationContext
+2021-12-08 13:33:10,950 [INFO] Root WebApplicationContext: initialization completed in 245 ms
+2021-12-08 13:33:10,963 [INFO] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-12-08 13:33:10,967 [INFO] Opened connection [connectionId{localValue:8, serverValue:2588}] to localhost:27017
+2021-12-08 13:33:10,967 [INFO] Opened connection [connectionId{localValue:7, serverValue:2589}] to localhost:27017
+2021-12-08 13:33:10,967 [INFO] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1404900}
+2021-12-08 13:33:10,985 [INFO] LiveReload server is running on port 35729
+2021-12-08 13:33:11,100 [INFO] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-08 13:33:11,117 [INFO] Started TestMangoDbApplication in 0.437 seconds (JVM running for 9335.229)
+2021-12-08 13:33:11,119 [INFO] Condition evaluation unchanged
+2021-12-08 13:33:11,119 [INFO] Application is Running By log
+2021-12-08 13:33:15,287 [INFO] Application shutdown requested.
+2021-12-08 13:33:20,476 [INFO] Starting TestMangoDbApplication using Java 16.0.1 on DESKTOP-AA5E8UF with PID 15344 (D:\KrypC\November\EmployeeDetails-BackEnd\target\classes started by raosa in D:\KrypC\November\EmployeeDetails-BackEnd)
+2021-12-08 13:33:20,477 [INFO] No active profile set, falling back to default profiles: default
+2021-12-08 13:33:20,531 [INFO] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-08 13:33:20,531 [INFO] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-08 13:33:21,032 [INFO] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-12-08 13:33:21,072 [INFO] Finished Spring Data repository scanning in 35 ms. Found 1 MongoDB repository interfaces.
+2021-12-08 13:33:21,415 [INFO] Bean 'testMangoDbApplication' of type [com.example.api.TestMangoDbApplication$$EnhancerBySpringCGLIB$$e7539f50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-08 13:33:21,807 [INFO] Tomcat initialized with port(s): 8080 (http)
+2021-12-08 13:33:21,819 [INFO] Starting service [Tomcat]
+2021-12-08 13:33:21,819 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-08 13:33:21,888 [INFO] Initializing Spring embedded WebApplicationContext
+2021-12-08 13:33:21,889 [INFO] Root WebApplicationContext: initialization completed in 1357 ms
+2021-12-08 13:33:22,027 [INFO] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-12-08 13:33:22,098 [INFO] Opened connection [connectionId{localValue:1, serverValue:2590}] to localhost:27017
+2021-12-08 13:33:22,098 [INFO] Opened connection [connectionId{localValue:2, serverValue:2591}] to localhost:27017
+2021-12-08 13:33:22,098 [INFO] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22668800}
+2021-12-08 13:33:22,212 [INFO] LiveReload server is running on port 35729
+2021-12-08 13:33:22,856 [INFO] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-08 13:33:22,864 [INFO] Started TestMangoDbApplication in 3.084 seconds (JVM running for 4.163)
+2021-12-08 13:33:22,867 [INFO] Application is Running By log
+2021-12-08 13:33:34,304 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-08 13:33:34,304 [INFO] Initializing Servlet 'dispatcherServlet'
+2021-12-08 13:33:34,306 [INFO] Completed initialization in 2 ms
+2021-12-08 13:33:34,352 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:33:34,437 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:33:34,478 [INFO] Opened connection [connectionId{localValue:3, serverValue:2592}] to localhost:27017
+2021-12-08 13:33:41,727 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:33:41,727 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:33:50,512 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:33:50,513 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:33:50,513 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:33:50,513 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:33:50,517 [INFO] Opened connection [connectionId{localValue:4, serverValue:2593}] to localhost:27017
+2021-12-08 13:33:50,605 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:33:50,606 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:36:23,637 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:36:23,637 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:36:23,637 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:36:23,638 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:36:23,728 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:36:23,728 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:16,127 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:16,128 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:37:16,128 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:16,128 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:37:16,214 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:16,214 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:31,576 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:37:31,577 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:37:31,576 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:31,579 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:31,884 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:31,884 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:43,288 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:43,288 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:37:43,289 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:37:43,289 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:37:43,389 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:37:43,389 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:02,533 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:02,534 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:02,533 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:38:02,535 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:38:02,641 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:02,641 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:12,754 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:38:12,755 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:12,755 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:12,755 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:38:12,836 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:12,836 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:23,354 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:38:23,355 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:38:23,355 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:23,355 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:23,462 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:23,463 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:43,991 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:38:43,991 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:43,992 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:38:43,992 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:38:44,117 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:38:44,118 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:39:27,090 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:39:27,091 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:39:27,092 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:39:27,092 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:39:27,184 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:39:27,184 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:40:35,861 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:40:35,862 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 13:41:25,000 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:41:25,001 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:41:25,004 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:41:25,005 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:41:25,104 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:41:25,104 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:41:47,460 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:41:47,461 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:41:47,461 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:41:47,461 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:41:47,572 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:41:47,573 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:09,136 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:42:09,136 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:09,136 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:09,136 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:42:09,238 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:09,238 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:23,010 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:42:23,011 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:23,011 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:42:23,011 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:23,217 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:23,218 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:45,359 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:42:45,360 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:42:45,371 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:45,371 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:42:45,583 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:42:45,583 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:45:21,951 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:45:21,952 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 13:45:21,952 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 13:45:21,952 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 13:45:22,042 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 13:45:22,042 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:47:45,017 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:47:45,026 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:47:45,031 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:47:45,037 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:47:45,198 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:47:45,198 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:48:16,768 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:16,768 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:48:16,769 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:48:16,770 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:48:16,858 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:48:16,859 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:48:19,393 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:19,393 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 14:48:20,342 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:20,343 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 14:48:21,758 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:21,759 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:48:21,780 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:48:21,780 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:48:22,574 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:22,574 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 14:48:25,401 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:25,401 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 14:48:26,186 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:48:26,187 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 14:51:49,271 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:51:49,271 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:51:49,272 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:51:49,272 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:51:49,365 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:51:49,366 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:01,318 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:01,318 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:01,318 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:01,318 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:01,408 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:01,408 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:04,742 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:04,743 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:04,743 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:04,743 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:04,810 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:04,810 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:05,913 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:05,913 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:05,914 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:05,914 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:05,981 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:05,981 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:07,252 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:07,253 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:07,253 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:07,253 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:07,295 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:07,295 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:15,097 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:15,107 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 14:52:15,107 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 14:52:17,274 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:17,275 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 14:52:17,275 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 14:52:21,304 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:21,305 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:21,305 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:21,305 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:21,379 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:21,379 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:50,439 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:50,440 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:50,440 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:50,440 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:50,507 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:50,507 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:54,350 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:52:54,351 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:54,351 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:52:54,351 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:52:54,441 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:52:54,441 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:53:30,446 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:53:30,447 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:53:30,458 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:53:30,458 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:53:30,588 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:53:30,589 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:53:35,258 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:53:35,258 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:53:35,261 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:53:35,261 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:53:35,381 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:53:35,381 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:54:06,721 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:54:06,721 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:54:06,723 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:54:06,723 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:54:06,867 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:54:06,868 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:10,062 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:55:10,063 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:55:10,065 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:10,066 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:10,180 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:10,181 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:15,347 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:55:15,348 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:55:15,359 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:15,359 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:15,489 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:15,489 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:24,947 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:55:24,948 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:55:24,951 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:24,951 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:55:25,071 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:55:25,072 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:10,502 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:58:10,502 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:58:10,503 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:10,503 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:10,590 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:10,590 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:22,602 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:58:22,602 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:58:22,602 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:22,603 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:22,694 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:22,695 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:39,037 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:58:39,038 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:58:39,039 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:39,039 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:58:39,114 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:58:39,115 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:01,132 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:01,132 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:59:01,132 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:01,133 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:59:01,214 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:01,214 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:31,019 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:31,019 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:31,019 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:59:31,019 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:59:31,130 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:31,130 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:46,514 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 14:59:46,514 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 14:59:46,517 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:46,517 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 14:59:46,620 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 14:59:46,620 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:01:04,995 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:01:04,995 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:01:05,003 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:01:05,003 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:01:05,113 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:01:05,113 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:01:27,883 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:01:27,883 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:01:27,885 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:01:27,885 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:01:27,994 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:01:27,994 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:01:36,972 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:01:36,973 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:01:41,458 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:01:41,459 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:01:46,402 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:01:46,403 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:02:02,176 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:02:02,176 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:02:23,842 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:02:23,843 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:02:23,844 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:02:23,845 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:02:23,947 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:02:23,947 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:03:49,854 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:03:49,855 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:03:49,856 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:03:49,856 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:03:50,005 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:03:50,005 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:03:56,320 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:03:56,320 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:03:56,325 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:03:56,326 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:03:56,431 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:03:56,432 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:04:13,338 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:04:13,338 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:04:13,341 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:04:13,364 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:04:13,479 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:04:13,479 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:05:11,222 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:05:11,223 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:05:11,225 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:05:11,225 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:05:11,356 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:05:11,357 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:09,361 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:09,361 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:09,361 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:09,361 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:09,456 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:09,456 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:10,683 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:10,683 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:10,683 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:10,684 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:10,759 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:10,759 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:11,834 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:11,834 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:11,838 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:11,838 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:11,920 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:11,920 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:12,961 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:12,961 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:12,961 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:12,961 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:13,033 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:13,033 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:13,954 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:13,954 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:13,954 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:13,954 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:14,032 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:14,032 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:14,966 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:14,967 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:14,967 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:14,967 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:15,048 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:15,049 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:15,599 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:15,600 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:15,601 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:15,601 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:15,681 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:15,681 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:16,062 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:16,062 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:16,062 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:16,063 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:16,142 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:16,142 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:16,686 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:16,686 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:16,686 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:16,686 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:16,764 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:16,764 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:17,268 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:17,268 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:17,268 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:17,269 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:17,347 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:17,348 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:17,727 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:17,727 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:17,727 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:17,727 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:17,802 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:17,803 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:18,813 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:18,814 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:18,814 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:18,814 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:18,891 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:18,891 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:20,342 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:20,342 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:20,342 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:20,342 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:20,419 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:20,419 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:20,893 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:20,894 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:20,894 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:20,894 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:20,971 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:20,971 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:21,542 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:21,542 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:21,549 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:21,549 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:21,622 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:21,622 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:22,065 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:22,065 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:22,065 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:22,065 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:22,128 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:22,128 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:22,722 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:22,723 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:22,723 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:22,723 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:22,807 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:22,807 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:24,834 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:24,834 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:24,835 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:24,835 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:24,923 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:24,923 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:25,303 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:25,303 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:25,303 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:25,304 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:25,379 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:25,379 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:32,952 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:32,953 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:56,471 [INFO] login endPoint EmployeeDetailsController.employeeLogin()
+2021-12-08 15:06:56,472 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 15:06:56,472 [INFO] /EmployeeDetailValidator.isPasswordValid()
+2021-12-08 15:06:56,472 [INFO] This empLogIn call from /EmployeeDetailsService.logIn()
+2021-12-08 15:06:56,712 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:56,713 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:06:56,713 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:06:56,713 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:06:56,745 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:06:56,745 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:07:18,468 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:07:18,468 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:07:18,468 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:07:18,468 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:07:18,560 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:07:18,560 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:07:38,129 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:07:38,130 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:08:21,435 [INFO] login endPoint EmployeeDetailsController.employeeLogin()
+2021-12-08 15:08:21,436 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 15:08:21,544 [ERROR] error occured in EmployeeDetailsController.employeeLogIn()
+2021-12-08 15:08:21,664 [WARN] Resolved [javax.validation.ConstraintViolationException: isPasswordValid.password: Invalid Passwprd password should be like Rao@123]
+2021-12-08 15:08:29,885 [INFO] login endPoint EmployeeDetailsController.employeeLogin()
+2021-12-08 15:08:29,886 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 15:08:29,886 [INFO] /EmployeeDetailValidator.isPasswordValid()
+2021-12-08 15:08:29,886 [INFO] This empLogIn call from /EmployeeDetailsService.logIn()
+2021-12-08 15:08:29,927 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:08:29,928 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:08:29,928 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:08:29,928 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:08:29,963 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:08:29,963 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:08:36,729 [INFO] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 15:08:36,729 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 15:08:36,729 [INFO] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 15:08:37,658 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:08:37,659 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:08:37,666 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:08:37,667 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:08:38,942 [INFO] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 15:08:38,943 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 15:08:38,943 [INFO] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 15:08:39,949 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:08:39,949 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:08:39,955 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:08:39,956 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:02,195 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:02,196 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:02,196 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:02,196 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:02,263 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:02,263 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:08,752 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:08,752 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:11,317 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:11,317 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:12,572 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:12,573 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:12,581 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:12,581 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:13,882 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:13,882 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:14,706 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:14,707 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:15,819 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:15,820 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:15,830 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:15,830 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:17,024 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:17,025 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:17,795 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:17,795 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:19,063 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:19,063 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:19,642 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:19,642 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:20,675 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:20,676 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:20,683 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:20,684 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:22,164 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:22,164 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:22,664 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:22,664 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:23,450 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:23,451 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:23,458 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:23,458 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:25,029 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:25,029 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:25,557 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:25,557 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:27,848 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:27,849 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:27,857 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:27,857 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:29,015 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:29,015 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:29,585 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:29,585 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:35,113 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:35,114 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:35,128 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:35,128 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:36,427 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:36,427 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:36,606 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:36,606 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:37,455 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:37,456 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:37,464 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:37,464 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:21:38,921 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:38,921 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 15:21:39,196 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:39,196 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 15:21:39,354 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:21:39,355 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:21:39,377 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:21:39,377 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:53:52,131 [INFO] /Reject status endPoint EmployeeDetailsController.approveEmployeeStatus()
+2021-12-08 15:53:52,132 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 15:53:52,133 [INFO] This call is from /EmployeeDetailsService.rejectEmployeeStatus() 
+2021-12-08 15:53:53,139 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:53:53,140 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:53:53,146 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:53:53,146 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:54:10,767 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 15:54:10,767 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:54:10,767 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 15:54:10,767 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 15:54:10,849 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 15:54:10,849 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:00:09,284 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:09,284 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:00:09,284 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:00:09,284 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:00:09,375 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:00:09,376 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:00:16,485 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:16,485 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 16:00:16,485 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 16:00:21,188 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:21,188 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 16:00:21,188 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 16:00:28,442 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:28,443 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:00:28,443 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:00:28,443 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:00:28,530 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:00:28,530 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:00:39,186 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:39,187 [INFO] /EmployeeDetailValidator.isFirstNameValid()
+2021-12-08 16:00:39,187 [INFO] /EmployeeDetailsService.findbyfirstName() Method
+2021-12-08 16:00:40,037 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:40,038 [INFO] /EmployeeDetailValidator.isFirstNameValid()
+2021-12-08 16:00:40,038 [INFO] /EmployeeDetailsService.findbyfirstName() Method
+2021-12-08 16:00:54,981 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:54,981 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 16:00:54,981 [INFO] /EmployeeDetailsService.findByEmail()
+2021-12-08 16:00:58,319 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:00:58,320 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 16:00:58,320 [INFO] /EmployeeDetailsService.findByEmail()
+2021-12-08 16:01:00,848 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:00,848 [INFO] /EmployeeDetailValidator.isEmailIdValid()
+2021-12-08 16:01:00,849 [INFO] /EmployeeDetailsService.findByEmail()
+2021-12-08 16:01:13,223 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:13,223 [INFO] /EmployeeDetailValidator.isAddressValid()
+2021-12-08 16:01:13,224 [INFO] /EmployeeDetailsService.findByAddress()
+2021-12-08 16:01:21,763 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:21,783 [INFO] /EmployeeDetailValidator.isStartDateValid()
+2021-12-08 16:01:21,783 [INFO] /EmployeeDetailsService.findbyStartDate() 
+2021-12-08 16:01:37,921 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:37,921 [INFO] /EmployeeDetailValidator.isEndDateValid()
+2021-12-08 16:01:37,921 [INFO] /EmployeeDetailsService.findbyendDate()
+2021-12-08 16:01:41,764 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:41,765 [INFO] -----> false
+2021-12-08 16:01:41,765 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:01:41,770 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=432707}]
+2021-12-08 16:01:44,755 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:44,755 [INFO] -----> false
+2021-12-08 16:01:44,756 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:01:44,759 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=486965}]
+2021-12-08 16:01:47,417 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:01:47,418 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:01:47,419 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:01:47,419 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:01:47,498 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:01:47,498 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:21,389 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:21,389 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:21,389 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:21,389 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:21,482 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:21,482 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:27,045 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:27,045 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:27,047 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:27,047 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:27,120 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:27,120 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:28,110 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:28,111 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:29,012 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:29,013 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:30,099 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:30,099 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:30,108 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:30,108 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:30,610 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:30,610 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:30,767 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:30,768 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:30,990 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:30,991 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:31,001 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:31,001 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:31,135 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:31,135 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:31,344 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:31,344 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:31,475 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:31,475 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:31,483 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:31,483 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:31,697 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:31,697 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:31,848 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:31,848 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:32,063 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,063 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:32,071 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:32,071 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:32,208 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,208 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:32,430 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,430 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:32,575 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,575 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:32,583 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:32,583 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:32,796 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,796 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:32,941 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:32,941 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:33,151 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:33,151 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:33,159 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:33,159 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:33,283 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:33,283 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:33,517 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:33,517 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:33,857 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:33,857 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:33,884 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:33,885 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:04:34,015 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:34,015 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:04:34,198 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:34,198 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:04:37,630 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:04:37,630 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:04:37,640 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:04:37,640 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:16,534 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:16,534 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:17,306 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:17,306 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:17,999 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:17,999 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:18,007 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:18,008 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:18,510 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:18,510 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:18,589 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:18,589 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:18,746 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:18,746 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:18,756 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:18,756 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:19,021 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,021 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:19,179 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,179 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:19,402 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,402 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:19,410 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:19,410 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:19,558 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,558 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:19,780 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,780 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:19,990 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:19,990 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:19,999 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:19,999 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:20,278 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:20,278 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:20,437 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:20,437 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:20,698 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:20,699 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:20,707 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:20,707 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:20,855 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:20,855 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:21,129 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:21,129 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:21,287 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:21,288 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:21,295 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:21,295 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:21,561 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:21,561 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:21,719 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:21,719 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:22,766 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:22,766 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:24,194 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:24,195 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:27,115 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:27,115 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:28,018 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:28,018 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:28,025 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:28,025 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:31,213 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:31,214 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:31,802 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:31,802 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:32,261 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:32,261 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:32,268 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:32,268 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:32,562 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:32,562 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:32,719 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:32,719 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:32,968 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:32,968 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:32,975 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:32,975 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:33,125 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:33,126 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:33,348 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:33,348 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:33,635 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:33,635 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:33,647 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:33,647 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:33,909 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:33,910 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:34,028 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,028 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:34,159 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,159 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:34,167 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:34,167 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:34,408 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,408 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:34,539 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,539 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:34,788 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,788 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:34,796 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:34,796 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:34,893 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:34,893 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:35,181 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:35,181 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:35,285 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:35,285 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:35,293 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:35,293 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:35,548 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:35,548 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:35,665 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:35,665 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:35,927 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:35,927 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:35,936 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:35,936 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:36,071 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:36,072 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:36,267 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:36,267 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:36,542 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:36,542 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:36,549 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:36,550 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:36,701 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:36,701 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:36,987 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:36,988 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:37,146 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:37,146 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:37,153 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:37,154 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:37,419 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:37,419 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:37,551 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:37,551 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:37,838 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:37,838 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:37,845 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:37,845 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:37,983 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:37,983 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:38,270 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:38,270 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:38,415 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:38,415 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:38,421 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:38,421 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:38,716 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:38,716 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:38,847 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:38,847 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:39,148 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:39,148 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:39,155 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:39,155 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:39,292 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:39,292 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:39,606 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:39,606 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:39,739 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:39,739 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:39,747 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:39,747 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:40,012 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:40,012 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:40,156 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:40,156 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:40,457 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:40,457 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:40,464 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:40,465 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:40,614 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:40,615 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:40,915 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:40,915 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:41,047 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:41,047 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:41,055 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:41,055 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:05:41,321 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:41,321 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:05:41,479 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:41,479 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:05:42,461 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:05:42,461 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:05:42,467 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:05:42,468 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:09:50,611 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:09:50,611 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:09:50,611 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:09:50,612 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:09:50,697 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:09:50,697 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:35,379 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:35,379 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:35,379 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:35,379 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:35,461 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:35,461 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:38,563 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:38,563 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:39,283 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:39,283 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:40,147 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:40,147 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:40,155 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:40,155 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:40,815 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:40,815 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:41,077 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:41,077 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:41,365 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:41,365 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:41,372 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:41,372 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:41,511 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:41,511 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:41,757 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:41,757 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:41,915 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:41,915 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:41,922 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:41,922 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:42,150 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:42,151 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:42,308 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:42,308 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:42,569 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:42,569 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:42,577 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:42,577 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:42,700 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:42,700 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:42,949 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:42,949 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:43,093 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:43,094 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:43,101 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:43,101 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:43,343 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:43,343 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:43,485 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:43,486 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:43,747 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:43,747 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:43,755 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:43,755 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:43,878 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:43,879 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:44,127 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:44,127 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:44,285 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:44,285 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:44,292 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:44,292 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:44,533 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:44,533 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:44,691 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:44,691 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:44,991 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:44,991 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:44,998 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:44,998 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:45,150 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:45,150 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:45,423 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:45,423 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:45,581 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:45,581 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:45,594 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:45,594 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:45,894 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:45,894 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:46,052 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:46,052 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:46,326 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:46,326 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:46,333 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:46,334 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:46,458 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:46,459 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:46,746 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:46,746 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:46,903 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:46,903 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:46,911 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:46,911 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:47,191 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:47,191 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:47,349 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:47,349 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:47,584 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:47,584 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:47,593 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:47,593 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:47,807 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:47,807 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:48,094 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:48,094 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:48,251 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:48,251 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:48,260 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:48,260 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:48,526 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:48,526 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:48,684 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:48,684 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:48,971 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:48,971 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:48,978 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:48,978 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:49,103 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:49,103 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:49,377 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:49,377 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:49,535 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:49,535 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:49,543 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:49,543 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:49,783 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:49,783 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:49,914 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:49,914 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:50,189 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:50,189 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:50,196 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:50,196 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:50,320 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:50,320 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:50,595 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:50,595 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:50,739 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:50,739 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:50,746 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:50,746 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:51,013 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,013 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:51,145 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,145 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:51,407 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,407 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:51,414 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:51,414 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:51,551 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,551 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:51,812 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,812 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:51,958 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:51,958 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:51,965 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:51,965 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:52,166 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:52,166 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:52,506 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:52,506 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:53,318 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:53,318 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:53,328 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:53,328 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:11:54,274 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:54,275 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:11:55,965 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:55,965 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:11:57,363 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:11:57,363 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:11:57,372 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:11:57,372 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:28,531 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:28,532 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:28,532 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:28,532 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:28,657 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:28,657 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:30,920 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:30,921 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:30,921 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:30,921 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:31,006 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:31,006 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:37,245 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:37,245 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:37,247 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:37,247 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:37,345 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:37,345 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:52,288 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:52,289 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:52,306 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:52,306 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:52,445 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:52,445 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:56,934 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:56,934 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:56,934 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:56,934 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:57,021 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:57,021 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:58,112 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:13:58,112 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:13:58,112 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:58,112 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:13:58,178 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:13:58,179 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:21,601 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:21,601 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:21,601 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:21,602 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:21,724 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:21,724 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:24,062 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:24,063 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:24,066 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:24,067 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:25,098 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:25,098 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:25,099 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:25,099 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:25,581 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:25,581 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:25,589 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:25,589 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:25,869 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:25,869 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:25,869 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:25,869 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:26,013 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,014 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,014 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:26,014 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:26,248 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,248 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:26,255 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:26,255 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:26,408 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,408 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,408 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:26,409 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:26,641 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,641 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,641 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:26,642 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:26,798 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:26,798 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:26,805 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:26,805 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:27,072 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,073 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,073 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:27,073 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:27,231 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,231 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,231 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:27,232 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:27,453 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,453 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:27,461 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:27,461 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:27,598 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,598 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,598 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:27,598 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:27,871 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,871 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:27,871 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:27,871 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:28,029 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,030 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:28,036 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:28,036 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:28,277 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,277 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,277 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:28,277 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:28,434 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,434 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,435 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:28,435 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:28,604 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,604 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:28,613 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:28,613 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:28,865 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,866 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:28,866 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:28,866 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:29,154 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,154 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,154 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:29,154 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:29,312 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,312 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:29,319 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:29,319 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:29,532 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,533 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,533 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:29,533 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:29,678 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,678 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,678 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:29,679 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:29,913 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:29,913 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:29,919 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:29,919 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:30,057 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:30,057 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:30,057 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:30,057 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:30,331 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:30,332 [ERROR] /This error in EmployeeServiceController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:30,332 [INFO] customExceptionHandler method execution started
+2021-12-08 16:14:30,332 [WARN] Resolved [com.example.api.exceptionhandler.CustomException: Invalid EntityName]
+2021-12-08 16:14:30,489 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:30,490 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:30,498 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:30,498 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:43,054 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:43,055 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:43,056 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:43,056 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:43,125 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:43,125 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:47,228 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:47,228 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:14:48,300 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:48,301 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:14:48,823 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:48,824 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:48,831 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:48,831 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:49,033 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:49,033 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:14:49,308 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:49,308 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:14:49,452 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:49,452 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:49,460 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:49,460 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:49,700 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:49,700 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:14:49,858 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:49,858 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:14:50,080 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:50,080 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:50,087 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:50,087 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:14:50,224 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:50,224 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 16:14:50,499 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:50,499 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 16:14:50,656 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:14:50,656 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:14:50,662 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:14:50,663 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:19:05,364 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:19:05,367 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:19:05,382 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:19:05,382 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:19:05,485 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:19:05,485 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:19:27,404 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:19:27,404 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 16:19:27,405 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 16:27:24,820 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:27:24,820 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:27:24,823 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:27:24,823 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:27:24,907 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:27:24,907 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:27:34,377 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:27:34,378 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:27:45,913 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:27:45,914 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:28:17,933 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:28:17,933 [INFO] -----> false
+2021-12-08 16:28:17,933 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:28:17,936 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=433764}]
+2021-12-08 16:28:20,678 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:28:20,678 [INFO] -----> false
+2021-12-08 16:28:20,678 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:28:20,681 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=433764}]
+2021-12-08 16:28:23,530 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:28:23,530 [INFO] -----> false
+2021-12-08 16:28:23,531 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:28:23,537 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=434471}]
+2021-12-08 16:30:58,642 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:30:58,642 [INFO] -----> false
+2021-12-08 16:30:58,643 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:30:58,650 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=475800}]
+2021-12-08 16:31:12,859 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:31:12,859 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:31:21,604 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:31:21,604 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:31:27,447 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:27,447 [INFO] -----> false
+2021-12-08 16:31:27,447 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:27,450 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:30,187 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:30,187 [INFO] -----> false
+2021-12-08 16:31:30,187 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:30,189 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:31,522 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:31,522 [INFO] -----> false
+2021-12-08 16:31:31,522 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:31,525 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:32,242 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:32,243 [INFO] -----> false
+2021-12-08 16:31:32,243 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:32,245 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:32,845 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:32,845 [INFO] -----> false
+2021-12-08 16:31:32,845 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:32,848 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:33,000 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,000 [INFO] -----> false
+2021-12-08 16:31:33,000 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,003 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=462141}]
+2021-12-08 16:31:33,261 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,261 [INFO] -----> false
+2021-12-08 16:31:33,261 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,264 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:33,395 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,395 [INFO] -----> false
+2021-12-08 16:31:33,395 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,397 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:33,642 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,642 [INFO] -----> false
+2021-12-08 16:31:33,642 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,645 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:33,761 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,761 [INFO] -----> false
+2021-12-08 16:31:33,761 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,764 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:33,994 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:33,994 [INFO] -----> false
+2021-12-08 16:31:33,994 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:33,996 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:34,128 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:34,128 [INFO] -----> false
+2021-12-08 16:31:34,128 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:34,130 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:34,361 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:34,361 [INFO] -----> false
+2021-12-08 16:31:34,361 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:34,363 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:34,518 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:34,518 [INFO] -----> false
+2021-12-08 16:31:34,518 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:34,521 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:34,766 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:34,766 [INFO] -----> false
+2021-12-08 16:31:34,766 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:34,768 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:34,925 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:34,925 [INFO] -----> false
+2021-12-08 16:31:34,925 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:34,928 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461572}]
+2021-12-08 16:31:47,213 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:31:47,213 [INFO] -----> false
+2021-12-08 16:31:47,213 [INFO] This call is from /EmployeeDetailsService.findAllByStatusDetails Method
+2021-12-08 16:31:47,217 [INFO] /custerDes2nd : [ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=461517}]
+2021-12-08 16:34:27,631 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:34:27,631 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:34:27,631 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:34:27,631 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:34:27,748 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:34:27,748 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:34:55,746 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:34:55,747 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:34:55,758 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:34:55,758 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:34:55,857 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:34:55,857 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:21,861 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:37:21,861 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:37:21,863 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:21,863 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:21,967 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:21,967 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:39,411 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:39,411 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:39,411 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:37:39,411 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:37:39,559 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:39,559 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:43,774 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:37:43,774 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:37:43,776 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:43,776 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:37:43,880 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:37:43,881 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:38:48,305 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:38:48,305 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:38:48,309 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:38:48,310 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:38:48,803 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:38:48,803 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:02,076 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:39:02,076 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:39:02,077 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:02,077 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:02,285 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:02,286 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:15,381 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:15,381 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:39:15,381 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:15,381 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:39:15,443 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:15,443 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:22,593 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:39:22,593 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:22,593 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:22,593 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:39:22,663 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:22,663 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:37,922 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:39:37,922 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:39:37,922 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:37,922 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:39:38,093 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:39:38,094 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:02,412 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:02,412 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:02,412 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:40:02,412 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:40:02,445 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:02,445 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:06,174 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:40:06,175 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 16:40:06,175 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 16:40:15,971 [INFO] /update endPoint EmployeeDetailsController.updateEmployeeDetails()
+2021-12-08 16:40:15,977 [INFO] /update endpoint EmployeeDetailsService.upDateEmployeeDetails() 
+2021-12-08 16:40:16,043 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:40:16,043 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:16,043 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:16,043 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:40:16,072 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:16,072 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:23,804 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 16:40:23,804 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 16:40:23,806 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:23,806 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 16:40:23,887 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 16:40:23,887 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:05:05,601 [INFO] Closed connection [connectionId{localValue:4, serverValue:2593}] to localhost:27017 because the pool has been closed.
+2021-12-08 17:05:05,601 [INFO] Closed connection [connectionId{localValue:3, serverValue:2592}] to localhost:27017 because the pool has been closed.
+2021-12-08 17:05:05,797 [INFO] Starting TestMangoDbApplication using Java 16.0.1 on DESKTOP-AA5E8UF with PID 15344 (D:\KrypC\November\EmployeeDetails-BackEnd\target\classes started by raosa in D:\KrypC\November\EmployeeDetails-BackEnd)
+2021-12-08 17:05:05,797 [INFO] No active profile set, falling back to default profiles: default
+2021-12-08 17:05:06,177 [INFO] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-12-08 17:05:06,182 [INFO] Finished Spring Data repository scanning in 4 ms. Found 1 MongoDB repository interfaces.
+2021-12-08 17:05:06,295 [INFO] Bean 'testMangoDbApplication' of type [com.example.api.TestMangoDbApplication$$EnhancerBySpringCGLIB$$e7539f50] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-08 17:05:06,366 [INFO] Tomcat initialized with port(s): 8080 (http)
+2021-12-08 17:05:06,367 [INFO] Starting service [Tomcat]
+2021-12-08 17:05:06,367 [INFO] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-12-08 17:05:06,383 [INFO] Initializing Spring embedded WebApplicationContext
+2021-12-08 17:05:06,383 [INFO] Root WebApplicationContext: initialization completed in 581 ms
+2021-12-08 17:05:06,402 [INFO] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-12-08 17:05:06,405 [INFO] Opened connection [connectionId{localValue:5, serverValue:2607}] to localhost:27017
+2021-12-08 17:05:06,405 [INFO] Opened connection [connectionId{localValue:6, serverValue:2608}] to localhost:27017
+2021-12-08 17:05:06,405 [INFO] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1189700}
+2021-12-08 17:05:06,421 [INFO] LiveReload server is running on port 35729
+2021-12-08 17:05:06,700 [INFO] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-08 17:05:06,705 [INFO] Started TestMangoDbApplication in 0.963 seconds (JVM running for 12708.004)
+2021-12-08 17:05:06,707 [INFO] Condition evaluation unchanged
+2021-12-08 17:05:06,708 [INFO] Application is Running By log
+2021-12-08 17:23:13,627 [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-08 17:23:13,627 [INFO] Initializing Servlet 'dispatcherServlet'
+2021-12-08 17:23:13,628 [INFO] Completed initialization in 1 ms
+2021-12-08 17:23:13,629 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 17:23:13,633 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:23:13,639 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:23:13,643 [INFO] Opened connection [connectionId{localValue:7, serverValue:2609}] to localhost:27017
+2021-12-08 17:23:13,657 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 17:23:13,736 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 17:23:13,736 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:56:34,514 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:34,514 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 17:56:36,961 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:36,961 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 17:56:37,856 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:37,856 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 17:56:37,891 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 17:56:37,891 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:56:39,034 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:39,034 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 17:56:39,713 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:39,713 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 17:56:40,732 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:40,733 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 17:56:40,741 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 17:56:40,741 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:56:41,863 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:41,863 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 17:56:42,497 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:42,498 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 17:56:43,541 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:43,542 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 17:56:44,367 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:44,368 [INFO] /EmployeeDetailsService.sortByEachEntityInDescOrder(String entityName)
+2021-12-08 17:56:46,734 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:56:46,734 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 17:56:46,743 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 17:56:46,743 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 17:57:06,720 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:57:06,720 [INFO] /EmployeeDetailsService.sortByEachEntityAcending(String entityName)
+2021-12-08 17:59:16,372 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:59:16,373 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 17:59:16,373 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 17:59:22,473 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:59:22,474 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 17:59:22,474 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 17:59:31,809 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 17:59:31,809 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 17:59:31,810 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 18:00:09,233 [INFO] /add endPoint EmployeeDetailsController.deleteEmployeeDetails()
+2021-12-08 18:00:09,234 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 18:00:09,234 [INFO] /delete endpoint EmployeeDetailsService.deleteEmpDetails() 
+2021-12-08 18:00:09,734 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:00:09,734 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 18:00:09,742 [INFO] /empcount endPoint EmployeeDetailsController.getemployeeCount()
+2021-12-08 18:00:09,742 [INFO] /EmployeeDetailsService.getEmployeeCount()
+2021-12-08 18:00:16,604 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:00:16,605 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 18:00:16,605 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 18:00:19,011 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:00:19,011 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 18:00:19,011 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 18:00:22,253 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:00:22,253 [INFO] /EmployeeDetailValidator.isEmpIdValid()
+2021-12-08 18:00:22,253 [INFO] This findByEmpId call from /EmployeeDetailService.findByEmpId()
+2021-12-08 18:01:02,714 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:01:02,715 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 18:01:14,993 [INFO] /getall endPoint EmployeeDetailsController.getEmployeeDetailsWithParam()
+2021-12-08 18:01:14,994 [INFO] This call is from /EmployeeDetailsService.findAllByPagination() Method
+2021-12-08 18:18:22,386 [INFO] Application shutdown requested.
+2021-12-08 18:18:22,408 [INFO] Closed connection [connectionId{localValue:7, serverValue:2609}] to localhost:27017 because the pool has been closed.
